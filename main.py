@@ -128,10 +128,7 @@ def create_advanced_map(target_location, top_n_similar_locations, model, locatio
 
 if __name__ == "__main__":
     print(torch.cuda.is_available())
-    print(torch.cuda.is_available())
-    print(torch.cuda.is_available())
-    print(torch.cuda.is_available())
-    print(torch.cuda.is_available())
+
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print(f"Running on {device}")
